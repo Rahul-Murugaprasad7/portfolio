@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/74b7912a52.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <P>Software Developer</P>
+                <h1>Hi, I'm <span>Rahul</span><br> from Coimbatore,TamilNadu</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------about--------- -->
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                    <img src="image/passport_size.png">
+               </div> 
+               <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Seeking a challenging position in a reputed organization to learn new skills, expand my knowledge, and leverage learnings day by day.</p>
+              
+                    <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Software Developer</span><br>Full Stack Developer </li>   
+                    <li><span>Web Development</span><br>web app Development </li>     
+                    <li><span>App Development</span><br>Building android/ios apps </li>     
+  
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span>Software Developer</span><br>Full Stack Developer </li>   
+                    <li><span>Web Development</span><br>web app Development </li>     
+                    <li><span>App Development</span><br>Building android/ios apps </li>     
+  
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2020-2023</span><br>Bsc Computer Technology from KG College of Arts and Science </li>   
+                    <li><span>2018-2020</span><br>AISSCE at Angappa CBSE Senior Secondary School </li>    <!-- -----11th and 12th std---------- --> 
+                    <li><span>2017-2018</span><br>AISSE at Amrita Vidyalayam (CBSE)</li>                   <!-- -----10std---------- -->
+  
+                </ul>
+            </div>
+             </div> 
+
+            </div>
+        </div>
+    </div>
+<!-- ----------- services ----------------- -->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Software Developer</h2>
+                <p>qwertyuiop asdfghjkl zxcvbnm, wertyuiuhgfcxcv xdb ygf uhb sdcv kjmn xc </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Development</h2>
+                <p>qwertyuiop asdfghjkl zxcvbnm, wertyuiuhgfcxcv xdb ygf uhb sdcv kjmn xc </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>qwertyuiop asdfghjkl zxcvbnm, wertyuiuhgfcxcv xdb ygf uhb sdcv kjmn xc </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ----------portfolio--------------- -->
+
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/galaxy.jpeg">
+                <div class="layer">
+                    <h3>GALAXY</h3>
+                    <p>wertyui sdfghj xcvbn dfbhb dcv jnb dcv</p>
+                    <a href="http://127.0.0.1:5500/sample2.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/sun.jpeg">
+                <div class="layer">
+                    <h3>SUN</h3>
+                    <p>wertyui sdfghj xcvbn dfbhb dcv jnb dcv</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/th.jpeg">
+                <div class="layer">
+                    <h3>MOON</h3>
+                    <p>wertyui sdfghj xcvbn dfbhb dcv jnb dcv</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+
+</div>
+
+<!--------contact------------>
+
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="image/Rahul Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required >
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+         </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Rahul. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+      
+        function opentab(tabname){
+
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+        
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxNi9TexKg-jgkK4Bp77Mw0JZFgp7SGxvD8wrzAR-GnHX6ESb9cTqKweAn295UaxnfjNA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
